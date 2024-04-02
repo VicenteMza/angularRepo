@@ -11,11 +11,8 @@ import { PersonasService } from './personas.service';
 
 export class AppComponent implements OnInit{
   titulo = 'Listado de Personas';
-  personas: Persona[] = [];
 
-  constructor(private loggingService:LoggingService,
-              private personasService:PersonasService){}
   ngOnInit(): void {
-    this.personas= this.personasService.personas;  
+    throw new Error('Method not implemented.');
   }
 }
