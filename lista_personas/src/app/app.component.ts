@@ -13,6 +13,6 @@ export class AppComponent implements OnInit{
   titulo = 'Listado de Personas';
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    
   }
 }
